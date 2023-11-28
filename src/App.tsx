@@ -4,13 +4,11 @@ import Comments from './Comments';
 import './App.css'; // Make sure this path is correct
 
 const App: React.FC = () => {
-    // ... [rest of your useState and useEffect hooks]
     const [posts, setPosts] = useState<IPost[]>([]);
     const [newPostTitle, setNewPostTitle] = useState('');
     const [newPostContent, setNewPostContent] = useState('');
 
     useEffect(() => {
-        // Load posts from local storage on initial render
         const storedPosts = localStorage.getItem('posts');
         if (storedPosts) {
             setPosts(JSON.parse(storedPosts));
@@ -18,7 +16,6 @@ const App: React.FC = () => {
     }, []);
 
     useEffect(() => {
-        // Update local storage when posts change
         localStorage.setItem('posts', JSON.stringify(posts));
     }, [posts]);
 
