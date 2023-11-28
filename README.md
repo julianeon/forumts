@@ -2,7 +2,7 @@
 
 This is a forum created with TypeScript and React, in the early stages of development.
 
-You can create posts and comments, and view them in the app.
+You can create posts and comments which persist, and view them in the UI.
 
 ## How To Run
 
