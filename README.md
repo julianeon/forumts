@@ -1,6 +1,6 @@
 # About
 
-This is a forum created with TypeScript and React, in the early stages now.
+This is a forum created with TypeScript and React, in the early stages of development.
 
 You can create posts and comments, and view them in the app.
 
