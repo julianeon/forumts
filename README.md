@@ -8,6 +8,8 @@ The app loads a page that asks for a 'title' and 'content'.
 
 After you enter text and press the button, it will display the title and comment, as in a forum, in descending order down the page.
 
+You can add title & content repeatedly to fill up the page.
+
 ## How To Run
 
 In the project directory, you can run:
