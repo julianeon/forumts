@@ -1,8 +1,8 @@
 # About
 
-This is a forum created with TypeScript and React, in the early stages of development.
+This is a forum created with TypeScript and React.
 
-You can create posts and comments which persist, and view them in the UI.
+You can create posts and comments, which persist in local storage, and view them in the UI.
 
 The app loads a page that asks for a 'title' and 'content'.
 
